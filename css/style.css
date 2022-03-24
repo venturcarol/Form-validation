@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  background: #2C3132;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  color: #47CB64;
+  font-weight: 700;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #B9C7BC;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 35px;
+}
+
+img {
+  margin-top: 40px;
+}
+
+#apresentation {
+  position: absolute;
+  width: 80%;
+  margin: 40px;
+  top: 10%;
+  left: 10%;
+}
+
+#form-content {
+  position: relative;
+  left: 55%;
+  top: 10%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 84vh;
+  background: #47CB64;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.input-content {
+  display: flex;
+  flex-direction: column;
+  width: 21vw;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid #FFFFFF;
+  margin-left: 40px;
+  outline: none;
+  color: #555555;
+}
+
+#info-programming{
+  display: flex;
+  flex-direction: column;
+}
+
+#online-classes{
+  display: block;
+  margin-left: 38px;
+  margin-top: 10px;
+}
+
+.info-classes {
+  position: absolute;
+  margin-top: -14px;
+  margin-left:55px;
+}
+
+
+select {
+  width: 21vw;
+  height: 28px;
+  margin-left: 39px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  outline: none;
+  color: #555555;
+}
+
+h2 {
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 30px;
+}
+
+label, span {
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+div {
+  margin: 6px;
+}
+
+button{
+  width: 200px;
+  height: 45px;
+  margin-top: 40px;
+  margin-left: 50px;
+  border: 1px solid #FFFFFF;
+  color: #47CB64;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+button:hover {
+  color: #FFFFFF;
+  background: #47CB64;
+  border: 2px solid #FFFFFF;
+  opacity: 1;
+}
+
+#sucess-form {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+}
+
+#check {
+  margin-top: -10px;
+}
+
+
+

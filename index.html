@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Programming Guide</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main>
+	  <section id="apresentation">
+	  	<div>
+	  	  <h1>Programming Guide</h1>
+	  	  <p>Take the first steps in Web Development</p>
+	  	  <img src="images/programmer.png">
+	  	</div>
+	  </section>
+
+	  <section id="form-content">
+	  	<form name="form">
+	  	  <h2>Fill out the form below</h2>
+	  	  <div id="info-name">
+	  	    <label>Name*</label>
+	  	    <input class="input-content" id="name" type="text" name="name">
+	  	    <span id="msg-name"></span>
+	  	  </div>
+	  	  <div id="info-email">
+	  	    <label>Email*</label>
+	  	    <input class="input-content" id="email" type="text" name="email">
+	  	    <span id="msg-email"></span>
+	  	  </div>
+	  	  <div id="info-programming">
+	  	    <label>Programming level</label>
+	  	    <select name="level">
+	  	      <option value="select an option">Select an option</option>
+	  	      <option value="begginer">Beginner</option>
+	  	      <option value="medium">Intermediate</option>
+	  	      <option value="advanced">Advanced</option>
+	  	    </select>
+	  	  </div>
+	  	  <div id="online-content">
+	  	    <label>Are you interested in online classes?</label>
+	  	      <input id="online-classes" type="radio" value="Yes" name="interested">
+	  	    <label class="info-classes">Yes</label>
+	  	      <input id="online-classes" type="radio" value="No" name="interested">
+	  	    <label class="info-classes">No</label>
+	  	  </div>
+	  	  <div>
+	  	    <label id="keyword">Keyword (programming2022)</label>
+	  	    <input class="input-content" id="keyword" type="text" name="keyword">
+	  	    <span id="msg-key"></span>
+
+	  	    <button onclick="sendForm()" type="button">Send Form</button>
+	  	  </div>
+	  	</form>
+	  </section>
+
+	</main>
+
+	<script src="js/app.js"></script>
+
+</body>
+</html>
